@@ -19,6 +19,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.png">
       <!-- Custom Fonts -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href="//fonts.googleapis.com/css?family=.|Lato:light,normal,bold|Raleway:light,norkmal,bold|Raleway:light,normal,bold|" rel="stylesheet" type="text/css" />
   <!-- jQuery and jQuery fallback -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>   
@@ -440,22 +441,22 @@
           <div class="seven columns">            
             <h6>Follow</h6>            
               <a href="http://twitter.com/zerouv" title="zeroUV on Twitter" class="ss-icon" rel="me" target="_blank">
-                &#xF611;
+                <i class="fa fa-twitter"></i>
               </a>            
               <a href="http://facebook.com/zerouv" title="zeroUV on Facebook" class="ss-icon" rel="me" target="_blank">
-                &#xF610;
+                <i class="fa fa-facebook"></i>
               </a>              
               <a href="https://www.pinterest.com/zerouv/" title="zeroUV on Pinterest" class="ss-icon" rel="me" target="_blank">
-                &#xF650;
+                <i class="fa fa-pinterest-p"></i>
               </a>              
               <a href="http://zerouv.tumblr.com/" title="zeroUV on Tumblr" class="ss-icon" rel="me" target="_blank">
-                &#xF620;
+                <i class="fa fa-tumblr"></i>
               </a>              
               <a href="http://instagram.com/zerouv" title="zeroUV on Instagram" class="ss-icon" rel="me" target="_blank"> 
-                &#xF641;
+                <i class="fa fa-instagram"></i>
               </a>              
               <a href="mailto:shop@zerouv.com" title="Email zeroUV" class="ss-icon" target="_blank">
-                &#x2709;
+                <i class="fa fa-envelope-o"></i>
               </a>
             </h6>            
           </div>
@@ -496,7 +497,7 @@
               <input type="hidden" name="type" value="product" />
               <div class="search-close ss-icon">&#x2421;</div>
               <span class="icon-search search-submit"></span>
-              <input type="text" name="q" placeholder="Search zeroUV..." value="" autocapitalize="off" autocomplete="off" autocorrect="off" />
+              <input type="text" name="q" placeholder="Search " value="" autocapitalize="off" autocomplete="off" autocorrect="off" />
             </form>
           </div>
         </div>
@@ -508,7 +509,7 @@
     <div id="target">
       <div class="newsletter ">
         <p class="message"></p>
-        <form action="http://myshopify.us6.list-manage.com/subscribe/post?u=6324690949492d0d093b3553c&amp;id=0b71dd7785" method="post" name="mc-embedded-subscribe-form" class="contact-form" target="_blank">
+        <form action="" method="post" name="mc-embedded-subscribe-form" class="contact-form" target="_blank">
           <input type="email" value="" name="EMAIL" class="contact_email" placeholder="Enter your email address...">
           <input type="submit" value="Sign Up" class="action_button sign_up" name="subscribe" />
         </form>
@@ -544,6 +545,6 @@
       }
     });
   </script>
-  <input type="hidden" name="_pc_params" value="zerouv.myshopify.com:" />
+  <input type="hidden" name="_pc_params" value="" />
 </body>
 </html>
