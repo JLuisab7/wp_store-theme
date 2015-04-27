@@ -132,10 +132,10 @@
         </form>
       </div>
       	
-      	<?php if (is_page('contactenos')): ?>
-      	<div class="header mm-fixed-top header_bar">
-      	<?php else: ?>
-      	<div class="header mm-fixed-top is-absolute animated fadeIn ">
+      	<?php if (is_home()): ?>
+      		<div class="header mm-fixed-top is-absolute animated fadeIn ">
+      	<?php else: ?>      	
+      		<div class="header mm-fixed-top header_bar">
       	<?php endif ?>
         <div class="container"> 
           <div class="three columns logo">
